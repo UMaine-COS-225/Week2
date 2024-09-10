@@ -8,7 +8,7 @@ class JavaTypes {
   
         System.out.println(foo);            // Directly print the values
         System.out.println(bar);
-
+        
         System.out.println("The value of foo is " + foo); // Formatting is slightly easier in Java than Python
 
         /*
@@ -28,6 +28,7 @@ class JavaTypes {
         // String types
         char charVariable = 'a';            // You use single quotes to assign characters
         char anotherCharVariable = 65;      // You can also use ASCII value as a character
+        System.out.println("The value of the variable anotherCharVariable is: " + anotherCharVariable); 
 
 
         String aStringVar = "A message";    // Notice the uppercase 'S' in "String" versus lowercase letters in other types
@@ -45,6 +46,8 @@ class JavaTypes {
         float floatBar = bar;               // Widening casting
         int someVarInInt = (int) someVar;   // Narrowing casting
 
+        long someLongVar = someVarInInt;
+
         // EXERCISE: Try to cast one numerical type to another. See if you need to use widening or narrowing casting
 
         /*
@@ -60,8 +63,10 @@ class JavaTypes {
 
         int incrementOperation = barByFoo++;    // This increases the value by 1!
         int decrementOperation = modOp--;       // This decreases the value by 1
+        barByFoo = barByFoo + 1;
 
         int incrementShortHand = 0;
+        incrementShortHand = incrementShortHand + modOp;
         incrementShortHand += modOp;            // Short hand of assignment and addition operation, similar to Python
 
         // We also have the boolean operators in Java

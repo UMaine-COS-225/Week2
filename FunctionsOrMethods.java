@@ -2,9 +2,11 @@ class FunctionsOrMethods {
 
     public static void main(String[] args) {
         
-        printMessage("hello world");
+        // printMessage("hello world, how are you?");
 
         printMessage("The value of 1 and 4 is " + sumOfTwoNums(1, 4));
+
+        sumOfTwoNums(10, 20);
     }
 
     public static void printMessage(String message){
