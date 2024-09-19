@@ -266,7 +266,7 @@ In this snippet:
 
 You can also use complex boolean expressions in your conditions:
 
-```
+```java
 if (!isItRaining || haveARide) {
     System.out.println("I will go out");
 }
@@ -429,6 +429,7 @@ This file demonstrates how to use loops in Java, specifically `for` loops and `w
 #### Writing `for` loops
 
 In Java, a `for` loop is used to iterate over a block of code a specific number of times. The syntax includes initialization, condition, and increment/decrement steps all in one line.
+
 ```java
 for(int i = 0; i < 5; i++) { // i) Initialize counter, ii) set condition, iii) update counter
     System.out.println(i + ". Hello World");
